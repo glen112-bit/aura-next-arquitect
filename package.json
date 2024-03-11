@@ -1,15 +1,17 @@
 {
-"private":"true",
-    "workspaces": {
-    "packages": [
-      "packages/*",
-      "projects/*",
-      "setup/*"
-    ]
-  },
-  "scripts": {
-    "web-public": "npm --workspace @alura/web-public",
-    "dev:web-public": "npm --workspace @alura/web-public run dev",
-    "design-system": "npm --workspace @alura/design-system"
-  }
+	"private": "true",
+	"workspaces": {
+		"packages": [
+			"packages/*",
+			"projects/*",
+			"setup/*"
+		]
+	},
+	"scripts": {
+		"web-public": "npm --workspace @alura/web-public",
+		"dev:web-public": "npm run web-public run dev",
+		"build:web-public": "npm run web-public run build",
+		"lint:web-public": "npm run web-public run lint",
+		"design-system": "npm --workspace @alura/design-system"
+	}
 }
