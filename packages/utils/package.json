@@ -4,9 +4,12 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"test": "jest",
 		"lint": "eslint './**/*.{ts,tsx}'"
 	},
 	"devDependencies": {
-		"@alura/eslint-commons": "*"
+		"@alura/eslint-commons": "*",
+		"@alura/tsconfig-commons": "*",
+		"@alura/test-commons": "*"
 	}
 }

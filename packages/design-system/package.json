@@ -15,6 +15,7 @@
 		"@alura/utils": "*"
 	},
 	"devDependencies": {
+		"@alura/test-commons": "*",
 		"@alura/tsconfig-commons": "*",
 		"@alura/eslint-commons": "*"
 	}
