@@ -5,18 +5,19 @@
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint './**/*.{ts,tsx}'",
-		"test": "echo 'Not implemented'"
+		"test": "jest"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"styled-components": "^6.1.8",
-		"@alura/utils": "*"
+		"@alura/utils": "*",
+		"styled-components": "^6.1.8"
 	},
 	"devDependencies": {
+		"@alura/eslint-commons": "*",
 		"@alura/test-commons": "*",
 		"@alura/tsconfig-commons": "*",
-		"@alura/eslint-commons": "*"
+		"jest-environment-jsdom": "^29.7.0"
 	}
 }

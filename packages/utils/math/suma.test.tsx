@@ -1,3 +1,4 @@
+import {expect, jest, test} from '@jest/globals';
 import { suma } from "./suma";
 
 describe("suma()", () => {
